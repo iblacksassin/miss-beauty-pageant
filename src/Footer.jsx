@@ -2,13 +2,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="text-gray-500 border-t border-gray-800">
+    <footer className="text-amber-500 border-t border-amber-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           
           {/* Brand & Description */}
           <div className="md:col-span-2">
-            <span className="text-gray-900 text-xl font-bold tracking-wide">Miss Beauty Pageant</span>
+            <span className="text-amber-900 text-xl font-bold tracking-wide">Miss Beauty Pageant</span>
             <p className="mt-3 text-sm text-gray-400 max-w-sm">
                 This contest's aim is for the Empowerment & Growth of women through professional networking, 
                 mentorship opportunities, and personal confidence-building as core takeaways from their pageant experience.
@@ -19,7 +19,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-gray-900 text-sm font-semibold uppercase tracking-wider mb-4">Quick Links</h4>
+            <h4 className="text-amber-900 text-sm font-semibold uppercase tracking-wider mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:text-[coral] transition-colors">Home</a>
@@ -41,7 +41,7 @@ const Footer = () => {
 
           {/* Legal / Social */}
           <div>
-            <h4 className="text-gray-900 text-sm font-semibold uppercase tracking-wider mb-4">Connect</h4>
+            <h4 className="text-amber-900 text-sm font-semibold uppercase tracking-wider mb-4">Connect</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:text-[coral] transition-colors">Twitter / X</a>
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500">
+        <div className="border-t border-amber-800 pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500">
           <p>&copy; Miss Beauty Pageant. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 sm:mt-0">
             <a href="#" className="hover:text-gray-400 transition-colors">Terms of Service</a>
