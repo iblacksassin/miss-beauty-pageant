@@ -5,7 +5,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gray-800 text-white px-6 py-6 relative shadow-md">
+    <nav className="bg-amber-900 text-white px-6 py-6 relative shadow-md">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         
         {/* Logo */}
@@ -36,7 +36,7 @@ const Header = () => {
 
       {/* Mobile Nav Links Dropdown */}
       {isOpen && (
-        <ul className="md:hidden absolute top-full left-0 w-full bg-gray-800 flex flex-col items-center py-6 space-y-4 shadow-lg border-t border-gray-700">
+        <ul className="md:hidden absolute top-full left-0 w-full bg-amber-900 flex flex-col items-center py-6 space-y-4 shadow-lg border-t border-amber-700">
           <li><Link to="/" onClick={() => setIsOpen(false)} className="hover:text-coral transition-colors">Home</Link></li>
           <li><a href="/#about" onClick={() => setIsOpen(false)} className="hover:text-coral transition-colors">About</a></li>
           <li><a href="/#contestants" onClick={() => setIsOpen(false)} className="hover:text-coral transition-colors">Contestants</a></li>
