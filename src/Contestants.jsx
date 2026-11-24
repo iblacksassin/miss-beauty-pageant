@@ -283,7 +283,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-115 rounded-2xl'>
                 <img src={image20} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>18</h2>
                 <p className='text-white/50 p-2'>
@@ -327,20 +327,7 @@ const Contestants = () => {
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image19} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>20</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Stell Hanks <br />
-                  Age: 26 <br />
-                  Country: Brazil <br />
-                  Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>77</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
+          
         </div>
       </div>
     </div>
