@@ -25,9 +25,9 @@ const Contestants = () => {
   return (
     <div>
       <div className='p-3'>
-        <h2 className='text-center text-3xl font-bold text-gray-800 p-3'>Contenstants</h2>
+        <h2 className='text-center text-3xl font-bold text-amber-800 p-3'>Contenstants</h2>
         <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 m-auto lg:gap-3 md:gap-5 sm:gap-5 gap-5 lg:w-250 md:w-190 sm:w-150 w-70'>
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>1</h2>
                 <p className='text-white/50 p-2'>
@@ -35,14 +35,14 @@ const Contestants = () => {
                   Age: 25 <br />
                   Country: USA <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>3203</span>
+                  Votes: <span className='text-[coral]'>203</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image1} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>2</h2>
                 <p className='text-white/50 p-2'>
@@ -50,14 +50,14 @@ const Contestants = () => {
                   Age: 26 <br />
                   Country: USA <br />
                   Occupation: Stylist <br />
-                  Votes: <span className='text-[coral]'>3143</span>
+                  Votes: <span className='text-[coral]'>193</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image2} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>3</h2>
                 <p className='text-white/50 p-2'>
@@ -65,14 +65,14 @@ const Contestants = () => {
                   Age: 28 <br />
                   Country: USA <br />
                   Occupation: Photographer <br />
-                  Votes: <span className='text-[coral]'>3020</span>
+                  Votes: <span className='text-[coral]'>189</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image3} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>4</h2>
                 <p className='text-white/50 p-2'>
@@ -80,14 +80,14 @@ const Contestants = () => {
                   Age: 29 <br />
                   Country: USA <br />
                   Occupation: Stylist <br />
-                  Votes: <span className='text-[coral]'>2920</span>
+                  Votes: <span className='text-[coral]'>181</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image4} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>5</h2>
                 <p className='text-white/50 p-2'>
@@ -95,14 +95,14 @@ const Contestants = () => {
                   Age: 22 <br />
                   Country: USA <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>2889</span>
+                  Votes: <span className='text-[coral]'>179</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image5} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>6</h2>
                 <p className='text-white/50 p-2'>
@@ -110,14 +110,14 @@ const Contestants = () => {
                   Age: 21 <br />
                   Country: Norway <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>2850</span>
+                  Votes: <span className='text-[coral]'>168</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image6} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>7</h2>
                 <p className='text-white/50 p-2'>
@@ -125,14 +125,14 @@ const Contestants = () => {
                   Age: 23 <br />
                   Country: India <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>2810</span>
+                  Votes: <span className='text-[coral]'>161</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image7} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>8</h2>
                 <p className='text-white/50 p-2'>
@@ -140,14 +140,14 @@ const Contestants = () => {
                   Age: 24 <br />
                   Country: Sweden <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>2770</span>
+                  Votes: <span className='text-[coral]'>158</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image8} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>9</h2>
                 <p className='text-white/50 p-2'>
@@ -155,14 +155,14 @@ const Contestants = () => {
                   Age: 22 <br />
                   Country: France <br />
                   Occupation: Stylist <br />
-                  Votes: <span className='text-[coral]'>2715</span>
+                  Votes: <span className='text-[coral]'>150</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image9} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>10</h2>
                 <p className='text-white/50 p-2'>
@@ -170,14 +170,14 @@ const Contestants = () => {
                   Age: 27<br />
                   Country: Sweden <br />
                   Occupation: Photographer <br />
-                  Votes: <span className='text-[coral]'>2698</span>
+                  Votes: <span className='text-[coral]'>144</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image10} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>11</h2>
                 <p className='text-white/50 p-2'>
@@ -185,14 +185,14 @@ const Contestants = () => {
                   Age: 24 <br />
                   Country: South Korea <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>2675</span>
+                  Votes: <span className='text-[coral]'>132</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image11} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>12</h2>
                 <p className='text-white/50 p-2'>
@@ -200,14 +200,14 @@ const Contestants = () => {
                   Age: 26 <br />
                   Country: USA <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>2642</span>
+                  Votes: <span className='text-[coral]'>127</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image12} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>13</h2>
                 <p className='text-white/50 p-2'>
@@ -215,14 +215,14 @@ const Contestants = () => {
                   Age: 24 <br />
                   Country: China <br />
                   Occupation: Teacher <br />
-                  Votes: <span className='text-[coral]'>2627</span>
+                  Votes: <span className='text-[coral]'>122</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image13} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>14</h2>
                 <p className='text-white/50 p-2'>
@@ -230,14 +230,14 @@ const Contestants = () => {
                   Age: 22 <br />
                   Country: Ireland <br />
                   Occupation: Designer <br />
-                  Votes: <span className='text-[coral]'>2589</span>
+                  Votes: <span className='text-[coral]'>118</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image14} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>15</h2>
                 <p className='text-white/50 p-2'>
@@ -245,14 +245,14 @@ const Contestants = () => {
                   Age: 28 <br />
                   Country: Brazil <br />
                   Occupation: Designer <br />
-                  Votes: <span className='text-[coral]'>2552</span>
+                  Votes: <span className='text-[coral]'>111</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image15} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>16</h2>
                 <p className='text-white/50 p-2'>
@@ -260,14 +260,14 @@ const Contestants = () => {
                   Age: 28 <br />
                   Country: Philipine <br />
                   Occupation: Stylist <br />
-                  Votes: <span className='text-[coral]'>2512</span>
+                  Votes: <span className='text-[coral]'>109</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image16} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>17</h2>
                 <p className='text-white/50 p-2'>
@@ -275,14 +275,14 @@ const Contestants = () => {
                   Age: 24 <br />
                   Country: Mexico <br />
                   Occupation: Teacher <br />
-                  Votes: <span className='text-[coral]'>2490</span>
+                  Votes: <span className='text-[coral]'>99</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image17} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>18</h2>
                 <p className='text-white/50 p-2'>
@@ -290,14 +290,14 @@ const Contestants = () => {
                   Age: 29 <br />
                   Country: Malaysia <br />
                   Occupation: Model/Dj <br />
-                  Votes: <span className='text-[coral]'>2468</span>
+                  Votes: <span className='text-[coral]'>91</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image18} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>19</h2>
                 <p className='text-white/50 p-2'>
@@ -305,14 +305,14 @@ const Contestants = () => {
                   Age: 25 <br />
                   Country: Astria <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>2412</span>
+                  Votes: <span className='text-[coral]'>82</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image19} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>20</h2>
                 <p className='text-white/50 p-2'>
@@ -320,7 +320,7 @@ const Contestants = () => {
                   Age: 23 <br />
                   Country: Scotland <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>2377</span>
+                  Votes: <span className='text-[coral]'>77</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
