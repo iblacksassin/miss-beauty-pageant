@@ -11,7 +11,7 @@ export default function Vote() {
   const totalAmount = voteCount * PRICE_PER_VOTE;
 
   // Replace these with your actual tags
-  const PAYPAL_TAG = 'your-email@paypal.com';
+  const PAYPAL_TAG = 'dickproulx@hotmail.com';
 
   const handleOpenPayment = (e) => {
     e.preventDefault();
