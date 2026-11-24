@@ -3,7 +3,7 @@ import image from '../public/pageant.jpg'
 
 const More = () => {
   return (
-    <div className='bg-gray-800 py-6 px-6'>
+    <div className='bg-amber-900 py-6 px-6'>
       <div className='md:flex justify-evenly sm:flex-row m-auto md:w-full sm:w-80 w-60'>
         <div>
             <img src={image} className="md:w-80 sm:w-80 w-60" />
