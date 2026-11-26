@@ -18,7 +18,7 @@ import image15 from '../public/Pageant15.jpg'
 import image16 from '../public/Pageant16.jpg'
 import image19 from '../public/Pageant18.jpg'
 import image20 from '../public/Pageant19.jpg'
-import image21 from '../public/Pageant20.jpg'
+import image21 from '../public/public/af944afe-148b-42c9-8590-5f9fefdb1d6d_2A8815D1-D77C-44AC-B683-A0FD80B70C5F.jpeg'
 import { Link } from 'react-router-dom'
 
 const Contestants = () => {
