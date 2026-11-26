@@ -16,10 +16,9 @@ import image13 from '../public/Pageant13.jpg'
 import image14 from '../public/Pageant14.jpg'
 import image15 from '../public/Pageant15.jpg'
 import image16 from '../public/Pageant16.jpg'
-import image17 from '../public/Pageant18.jpeg'
-import image18 from '../public/Pageant18.jpg'
-import image19 from '../public/Pageant19.jpg'
-import image20 from '../public/af944afe-148b-42c9-8590-5f9fefdb1d6d_2A8815D1-D77C-44AC-B683-A0FD80B70C5F.jpeg'
+import image17 from '../public/Pageant18.jpg'
+import image18 from '../public/Pageant19.jpg'
+import image19 from '../public/af944afe-148b-42c9-8590-5f9fefdb1d6d_2A8815D1-D77C-44AC-B683-A0FD80B70C5F.jpeg'
 import { Link } from 'react-router-dom'
 
 const Contestants = () => {
@@ -284,7 +283,7 @@ const Contestants = () => {
             </div>
 
             <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-115 rounded-2xl'>
-                <img src={image20} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <img src={image19} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>18</h2>
                 <p className='text-white/50 p-2'>
                   Name: Kim yang <br />
