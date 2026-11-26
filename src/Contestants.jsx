@@ -16,18 +16,20 @@ import image13 from '../public/Pageant13.jpg'
 import image14 from '../public/Pageant14.jpg'
 import image15 from '../public/Pageant15.jpg'
 import image16 from '../public/Pageant16.jpg'
-import image17 from '../public/Pageant18.jpg'
-import image18 from '../public/Pageant19.jpg'
-import image19 from '../public/af944afe-148b-42c9-8590-5f9fefdb1d6d_2A8815D1-D77C-44AC-B683-A0FD80B70C5F.jpeg'
+import image17 from '../public/Pageant16.jpg'
+import image18 from '../public/Pageant18.jpg'
+import image19 from '../public/Pageant18.jpg'
+import image20 from '../public/Pageant19.jpg'
+import image21 from '../public/Pageant20.jpg'
 import { Link } from 'react-router-dom'
 
 const Contestants = () => {
   return (
     <div>
       <div className='p-3'>
-        <h2 className='text-center text-3xl font-bold text-amber-800 p-3'>Contenstants</h2>
+        <h2 className='text-center text-3xl font-bold text-gray-800 p-3'>Contenstants</h2>
         <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 m-auto lg:gap-3 md:gap-5 sm:gap-5 gap-5 lg:w-250 md:w-190 sm:w-150 w-70'>
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>1</h2>
                 <p className='text-white/50 p-2'>
@@ -35,14 +37,14 @@ const Contestants = () => {
                   Age: 25 <br />
                   Country: USA <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>203</span>
+                  Votes: <span className='text-[coral]'>185</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image1} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>2</h2>
                 <p className='text-white/50 p-2'>
@@ -50,14 +52,14 @@ const Contestants = () => {
                   Age: 26 <br />
                   Country: USA <br />
                   Occupation: Stylist <br />
-                  Votes: <span className='text-[coral]'>193</span>
+                  Votes: <span className='text-[coral]'>143</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image2} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>3</h2>
                 <p className='text-white/50 p-2'>
@@ -65,14 +67,14 @@ const Contestants = () => {
                   Age: 28 <br />
                   Country: USA <br />
                   Occupation: Photographer <br />
-                  Votes: <span className='text-[coral]'>189</span>
+                  Votes: <span className='text-[coral]'>120</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image3} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>4</h2>
                 <p className='text-white/50 p-2'>
@@ -80,14 +82,14 @@ const Contestants = () => {
                   Age: 29 <br />
                   Country: USA <br />
                   Occupation: Stylist <br />
-                  Votes: <span className='text-[coral]'>181</span>
+                  Votes: <span className='text-[coral]'>115</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image4} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>5</h2>
                 <p className='text-white/50 p-2'>
@@ -95,171 +97,6 @@ const Contestants = () => {
                   Age: 22 <br />
                   Country: USA <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>179</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image5} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>6</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Isabella Ray <br />
-                  Age: 21 <br />
-                  Country: Norway <br />
-                  Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>168</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image6} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>7</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Ava Dez <br />
-                  Age: 23 <br />
-                  Country: India <br />
-                  Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>161</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image7} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>8</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Mia Sam <br />
-                  Age: 24 <br />
-                  Country: Sweden <br />
-                  Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>158</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image8} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>9</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Valentina Rose <br />
-                  Age: 22 <br />
-                  Country: France <br />
-                  Occupation: Stylist <br />
-                  Votes: <span className='text-[coral]'>150</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image9} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>10</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Grace Sam <br />
-                  Age: 27<br />
-                  Country: Sweden <br />
-                  Occupation: Photographer <br />
-                  Votes: <span className='text-[coral]'>144</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image10} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>11</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Scarlett Yen <br />
-                  Age: 24 <br />
-                  Country: South Korea <br />
-                  Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>132</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image11} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>12</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Victoria Steph <br />
-                  Age: 26 <br />
-                  Country: USA <br />
-                  Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>127</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image12} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>13</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Lenny Lee <br />
-                  Age: 24 <br />
-                  Country: China <br />
-                  Occupation: Teacher <br />
-                  Votes: <span className='text-[coral]'>122</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image13} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>14</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Hannah Bria <br />
-                  Age: 22 <br />
-                  Country: Ireland <br />
-                  Occupation: Designer <br />
-                  Votes: <span className='text-[coral]'>118</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image14} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>15</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Cassandra Sam <br />
-                  Age: 28 <br />
-                  Country: Brazil <br />
-                  Occupation: Designer <br />
-                  Votes: <span className='text-[coral]'>111</span>
-                </p>
-                <div className='text-center'>
-                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
-                </div>
-            </div>
-
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image15} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
-                <h2 className='text-center text-[coral]'>16</h2>
-                <p className='text-white/50 p-2'>
-                  Name: Penelope Grayson<br />
-                  Age: 28 <br />
-                  Country: Philipine <br />
-                  Occupation: Stylist <br />
                   Votes: <span className='text-[coral]'>109</span>
                 </p>
                 <div className='text-center'>
@@ -267,7 +104,172 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image5} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>6</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Isabella Ray <br />
+                  Age: 21 <br />
+                  Country: Norway <br />
+                  Occupation: Model <br />
+                  Votes: <span className='text-[coral]'>95</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image6} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>7</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Ava Dez <br />
+                  Age: 23 <br />
+                  Country: India <br />
+                  Occupation: Model <br />
+                  Votes: <span className='text-[coral]'>90</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image7} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>8</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Mia Sam <br />
+                  Age: 24 <br />
+                  Country: Sweden <br />
+                  Occupation: Model <br />
+                  Votes: <span className='text-[coral]'>87</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image8} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>9</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Valentina Rose <br />
+                  Age: 22 <br />
+                  Country: France <br />
+                  Occupation: Stylist <br />
+                  Votes: <span className='text-[coral]'>85</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image9} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>10</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Grace Sam <br />
+                  Age: 27<br />
+                  Country: Sweden <br />
+                  Occupation: Photographer <br />
+                  Votes: <span className='text-[coral]'>78</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image10} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>11</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Scarlett Yen <br />
+                  Age: 24 <br />
+                  Country: South Korea <br />
+                  Occupation: Model <br />
+                  Votes: <span className='text-[coral]'>75</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image11} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>12</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Victoria Steph <br />
+                  Age: 26 <br />
+                  Country: USA <br />
+                  Occupation: Model <br />
+                  Votes: <span className='text-[coral]'>72</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image12} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>13</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Lenny Lee <br />
+                  Age: 24 <br />
+                  Country: China <br />
+                  Occupation: Teacher <br />
+                  Votes: <span className='text-[coral]'>67</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image13} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>14</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Hannah Bria <br />
+                  Age: 22 <br />
+                  Country: Ireland <br />
+                  Occupation: Designer <br />
+                  Votes: <span className='text-[coral]'>61</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image14} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>15</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Cassandra Sam <br />
+                  Age: 28 <br />
+                  Country: Brazil <br />
+                  Occupation: Designer <br />
+                  Votes: <span className='text-[coral]'>59</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image15} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+                <h2 className='text-center text-[coral]'>16</h2>
+                <p className='text-white/50 p-2'>
+                  Name: Penelope Grayson<br />
+                  Age: 28 <br />
+                  Country: Philipine <br />
+                  Occupation: Stylist <br />
+                  Votes: <span className='text-[coral]'>52</span>
+                </p>
+                <div className='text-center'>
+                    <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
+                </div>
+            </div>
+
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image16} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>17</h2>
                 <p className='text-white/50 p-2'>
@@ -275,58 +277,57 @@ const Contestants = () => {
                   Age: 24 <br />
                   Country: Mexico <br />
                   Occupation: Teacher <br />
-                  Votes: <span className='text-[coral]'>99</span>
+                  Votes: <span className='text-[coral]'>50</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-115 rounded-2xl'>
-                <img src={image19} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-120 rounded-2xl'>
+                <img src={image21} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>18</h2>
                 <p className='text-white/50 p-2'>
-                  Name: Kim yang <br />
+                  Name: Ms Puiyi <br />
                   Age: 29 <br />
                   Country: Malaysia <br />
                   Occupation: Model/Dj <br />
-                  Votes: <span className='text-[coral]'>91</span>
+                  Votes: <span className='text-[coral]'>48</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image17} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image19} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>19</h2>
                 <p className='text-white/50 p-2'>
                   Name: Freya Bre <br />
                   Age: 25 <br />
                   Country: Astria <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>82</span>
+                  Votes: <span className='text-[coral]'>42</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
 
-            <div className='bg-amber-900 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
-                <img src={image18} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
+            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+                <img src={image20} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>20</h2>
                 <p className='text-white/50 p-2'>
                   Name: Hailey Brook <br />
                   Age: 23 <br />
                   Country: Scotland <br />
                   Occupation: Model <br />
-                  Votes: <span className='text-[coral]'>77</span>
+                  Votes: <span className='text-[coral]'>38</span>
                 </p>
                 <div className='text-center'>
                     <Link to="/vote" className='px-8 py-1 bg-[coral] rounded-xl'>Vote</Link>
                 </div>
             </div>
-          
         </div>
       </div>
     </div>
