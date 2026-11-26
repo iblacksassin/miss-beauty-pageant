@@ -27,7 +27,7 @@ const Contestants = () => {
       <div className='p-3'>
         <h2 className='text-center text-3xl font-bold text-gray-800 p-3'>Contenstants</h2>
         <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 m-auto lg:gap-3 md:gap-5 sm:gap-5 gap-5 lg:w-250 md:w-190 sm:w-150 w-70'>
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>1</h2>
                 <p className='text-white/50 p-2'>
@@ -42,7 +42,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image1} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>2</h2>
                 <p className='text-white/50 p-2'>
@@ -57,7 +57,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image2} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>3</h2>
                 <p className='text-white/50 p-2'>
@@ -72,7 +72,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image3} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>4</h2>
                 <p className='text-white/50 p-2'>
@@ -87,7 +87,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image4} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>5</h2>
                 <p className='text-white/50 p-2'>
@@ -102,7 +102,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image5} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>6</h2>
                 <p className='text-white/50 p-2'>
@@ -117,7 +117,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image6} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>7</h2>
                 <p className='text-white/50 p-2'>
@@ -132,7 +132,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image7} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>8</h2>
                 <p className='text-white/50 p-2'>
@@ -147,7 +147,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image8} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>9</h2>
                 <p className='text-white/50 p-2'>
@@ -162,7 +162,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image9} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>10</h2>
                 <p className='text-white/50 p-2'>
@@ -177,7 +177,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image10} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>11</h2>
                 <p className='text-white/50 p-2'>
@@ -192,7 +192,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image11} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>12</h2>
                 <p className='text-white/50 p-2'>
@@ -207,7 +207,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image12} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>13</h2>
                 <p className='text-white/50 p-2'>
@@ -222,7 +222,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image13} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>14</h2>
                 <p className='text-white/50 p-2'>
@@ -237,7 +237,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image14} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>15</h2>
                 <p className='text-white/50 p-2'>
@@ -252,7 +252,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image15} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>16</h2>
                 <p className='text-white/50 p-2'>
@@ -267,7 +267,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image16} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>17</h2>
                 <p className='text-white/50 p-2'>
@@ -282,7 +282,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-120 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-120 rounded-2xl'>
                 <img src={image21} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>18</h2>
                 <p className='text-white/50 p-2'>
@@ -297,7 +297,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image19} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>19</h2>
                 <p className='text-white/50 p-2'>
@@ -312,7 +312,7 @@ const Contestants = () => {
                 </div>
             </div>
 
-            <div className='bg-gray-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
+            <div className='bg-amber-800 lg:w-60 lg:h-90 md:w-60 md:h-100 sm:w-75 sm:h-105 w-65 h-100 rounded-2xl'>
                 <img src={image20} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>20</h2>
                 <p className='text-white/50 p-2'>
