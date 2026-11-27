@@ -286,7 +286,7 @@ const Contestants = () => {
                 <img src={image21} className="lg:w-60 lg:h-40 md:w-60 md:h-50 rounded-2xl" />
                 <h2 className='text-center text-[coral]'>18</h2>
                 <p className='text-white/50 p-2'>
-                  Name: Ms Puiyi <br />
+                  Name: Kim yang <br />
                   Age: 29 <br />
                   Country: Malaysia <br />
                   Occupation: Model/Dj <br />
